@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: Roboto;
+    height: 100vh;
 }
 
 .section-top {
@@ -43,6 +44,7 @@ h1 {
 
 .hero-image {
     height: 280px;
+    /* min-height: 280px; */
     width: 100%;
     object-fit: cover;
 }
@@ -51,7 +53,6 @@ h1 {
     width: 100px;
     /* object-fit: cover; */
 }
-
 
 button {
     background-color: #3882F6;
@@ -87,18 +88,19 @@ ul {
 .banner-container {
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 
 .banner-left-column, .banner-right-column {
     min-width: 50%;
     max-width: 50%;
-    height: 300px;
+    /* height: 300px; */
     padding: 0px 20px;
 }
 
 .section-information {
     text-align: center;
-    height: 250px;
+    /* height: 250px; */
     padding: 60px 0px;
     margin-left: 25%;
     margin-right: 25%;
@@ -108,17 +110,19 @@ ul {
     display: flex;
     justify-content:space-between;
     margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .gallery {
     width: 100px;
-    height: 100px;
+    height: auto;
 }
 
 .section-quote {
     margin: 0;
     background-color: #E5E7EB;
-    height: 250px;
+    /* height: 250px; */
     padding: 60px 0px;
 }
 
